@@ -40,9 +40,32 @@ Rather than relying on common assumptions, I wanted to verify the behavior of sa
 6. Value at Risk (VaR)
 7. Regression analysis
 
+# Data
+
+- Gold Futures: GC=F
+- U.S. Dollar Index: DX-Y.NYB
+- U.S. Treasury indicator: ^TNX
+- Market uncertainty indicator: ^VIX
+- Events: Russia–Ukraine War, U.S.–Middle East geopolitical conflict
+- Source: Yahoo Finance via yfinance
+
+# Visualization example
+<img width="4800" height="3600" alt="A_comprehensive_analysis" src="https://github.com/user-attachments/assets/da6bac37-1585-48d8-942a-f16f262c00a6" />
+
+
 # Results
 
-The first-stage analysis showed that simple statistical indicators alone were insufficient to fully explain the behavior of safe-haven assets under geopolitical risks.
+The first-stage analysis compared Gold, the U.S. Dollar Index,
+U.S. Treasury-related indicators, and market volatility across
+geopolitical risk periods.
+
+The results showed that safe-haven performance was not consistent
+across assets or events. Return, volatility, correlation, VaR, and
+regression results produced different evaluations depending on the
+asset and event period.
+
+This suggests that safe-haven characteristics cannot be determined
+using a single descriptive statistic alone.
 
 This finding motivated the design of a second-stage research project.
 
