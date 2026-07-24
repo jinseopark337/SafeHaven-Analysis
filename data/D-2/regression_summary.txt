@@ -1,0 +1,62 @@
+
+============================== Russia-Ukraine 분석 결과 ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               Gold_Ret   R-squared:                       0.089
+Model:                            OLS   Adj. R-squared:                  0.074
+Method:                 Least Squares   F-statistic:                     6.025
+Date:                Thu, 14 May 2026   Prob (F-statistic):           0.000122
+Time:                        23:19:25   Log-Likelihood:                 834.51
+No. Observations:                 251   AIC:                            -1659.
+Df Residuals:                     246   BIC:                            -1641.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           0.0007      0.001      0.812      0.417      -0.001       0.002
+VIX_diff    -1.673e-05      0.000     -0.043      0.966      -0.001       0.001
+War_Dummy      -0.0011      0.001     -1.004      0.316      -0.003       0.001
+Rate_diff      -0.0395      0.009     -4.616      0.000      -0.056      -0.023
+Interaction     0.0005      0.001      0.837      0.403      -0.001       0.002
+==============================================================================
+Omnibus:                        4.938   Durbin-Watson:                   2.083
+Prob(Omnibus):                  0.085   Jarque-Bera (JB):                4.682
+Skew:                          -0.273   Prob(JB):                       0.0962
+Kurtosis:                       3.388   Cond. No.                         35.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+============================== US-MiddleEast 분석 결과 ==============================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               Gold_Ret   R-squared:                       0.033
+Model:                            OLS   Adj. R-squared:                  0.007
+Method:                 Least Squares   F-statistic:                     1.256
+Date:                Thu, 14 May 2026   Prob (F-statistic):              0.290
+Time:                        23:19:25   Log-Likelihood:                 374.60
+No. Observations:                 151   AIC:                            -739.2
+Df Residuals:                     146   BIC:                            -724.1
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           0.0025      0.002      1.044      0.298      -0.002       0.007
+VIX_diff       -0.0013      0.002     -0.821      0.413      -0.004       0.002
+War_Dummy      -0.0021      0.003     -0.612      0.542      -0.009       0.005
+Rate_diff      -0.0776      0.046     -1.700      0.091      -0.168       0.013
+Interaction     0.0004      0.002      0.192      0.848      -0.004       0.005
+==============================================================================
+Omnibus:                       72.730   Durbin-Watson:                   2.208
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              469.499
+Skew:                          -1.583   Prob(JB):                    1.12e-102
+Kurtosis:                      11.037   Cond. No.                         56.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
