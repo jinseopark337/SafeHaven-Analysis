@@ -87,15 +87,15 @@ After reviewing the analysis, several parts of the framework were revised:
 
 ### Russia–Ukraine War
 
-<!-- Add Russia–Ukraine visualization here -->
+<img width="3600" height="1800" alt="Russia_Ukraine_cumulative_returns" src="https://github.com/user-attachments/assets/8388ff56-8acb-42d8-a0e2-5957ab7d3d02" />
 
 ### U.S.–Iran Conflict
 
-<!-- Add U.S.–Iran visualization here -->
+<img width="3600" height="1800" alt="US_Iran_cumulative_returns" src="https://github.com/user-attachments/assets/bf52f5a8-e343-45ea-8269-d3572c93c2f3" />
 
 ### Cross-Event Comparison
 
-<!-- Add comparison visualization here -->
+<img width="3000" height="1800" alt="ALL_event_safe_haven_comparison" src="https://github.com/user-attachments/assets/bda7e98a-03c5-44f7-a291-b2dfe23517bb" />
 
 # Results
 
